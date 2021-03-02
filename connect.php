@@ -17,6 +17,6 @@ $psw = md5($psw);
     $sql = "Insert INTO Login (Nome,Cognome,Email,Password) values ('$nome','$cognome','$email','$psw')";
     $miodb->query($sql); 
     $miodb->close();
-    header("Refresh:0; url=index.html");
+    header("Refresh:0; url=http:/index.html");
 	
-?>
+?>

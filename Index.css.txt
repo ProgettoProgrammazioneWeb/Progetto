@@ -1,0 +1,93 @@
+.image {
+    background-color: #490d40;
+    background: url(img/fontpage.jpg) no-repeat center center;
+    background-size: cover;
+    height: 570px;
+    margin-top: 70px;
+  }
+  .image .heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .image p {
+    text-align: center;
+    padding: 20px 60px;
+  }
+  .image p .btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1.2em;
+  
+  }
+  /*bottone scopri piu*/ 
+  .image p .btn:hover {
+    color: #2abbeb;
+    border-color: #2abbeb;
+  }
+  
+  .navbar {
+    background-color: #2abbeb;
+    border: none;
+    color: white;
+    z-index: 100;
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+  }
+  /*quadrato esterno bottoni navbar*/
+  .navbar-default .navbar-nav > li > a:hover{
+   background-color: white;
+    border: 2px solid black;
+    text-decoration: black;
+  }
+  
+  /* Solid class attached on scroll past first section */
+  .navbar.solid {
+    background-color: #490d40;
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+  }
+  .navbar.solid .navbar-nav > li > a {
+    color: #99ffff;
+    -webkit-transition: color 1s ease 0s;
+    transition: color 1s ease 0s;
+  }
+  
+  .chisiamo {
+    background-color: #2abbeb;
+    color: #000000;
+    height: 600px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .chisiamo h2 {
+    padding-top: 220px;
+  }
+  .chisiamo p {
+    padding: 20px 80px;
+  }
+
+  .navbar-brand{
+    margin-bottom: 40px;
+  }
+  .LogoSito{
+    height: 300%;
+  }
+
+  .disponibilita{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .ristorante button{
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+  }
