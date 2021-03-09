@@ -1,0 +1,133 @@
+
+.image {
+    background-color: #490d40;
+    background: url(../img/fontpage.jpg) no-repeat center center;
+    background-size: cover;
+    height: 570px;
+    margin-top: 70px;
+  }
+  .image .heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .image p {
+    text-align: center;
+    padding: 20px 60px;
+  }
+  .image p .btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1.2em;
+  
+  }
+  /*bottone scopri piu*/ 
+  .image p .btn:hover {
+    color: #2abbeb;
+    border-color: #2abbeb;
+  }
+  
+    .navbar {
+    background-color: #2abbeb;
+    border: none;
+    color: white;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+  }
+  /*quadrato esterno bottoni navbar*/
+  .navbar-default .navbar-nav > li > a:hover{
+   background-color: white;
+    border: 2px solid black;
+    text-decoration: black;
+  }
+  
+  /* Solid class attached on scroll past first section */
+  .navbar.solid {
+    background-color: #490d40;
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+  }
+  .navbar.solid .navbar-nav > li > a {
+    color: #99ffff;
+    -webkit-transition: color 1s ease 0s;
+    transition: color 1s ease 0s;
+  }
+  .chisiamo {
+    background-color:white;
+    color: #000000;
+    height: 100%;
+    margin-top: -20px;
+  }
+  .chisiamo h2 {
+    text-align: center;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .chisiamo img{
+    width: 100%;
+    margin-left: 20px;
+  }
+  .informazione{
+    padding-top: 100px;
+  }
+  .informazione img{
+    padding:0px 20px 10px 20px;
+  }
+  .informazione h3{
+    padding:0px 20px 10px 20px;
+    color: black;
+  }
+  .informazione h4{
+    padding:0px 20px 10px 20px;
+    color: black;
+  }
+  /*bottone menu*/ 
+  .informazione .buttonmenu{
+    margin-left: 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  .informazione .buttonmenu:hover {
+    color: #2abbeb;
+    border-color: #2abbeb;
+  }
+
+  .navbar-brand{
+    margin-bottom: 40px;
+  }
+ .LogoSito{
+    height: 300%;
+ }
+  /*bottone prenota*/ 
+  .prenota{
+    margin: 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .prenota:hover {
+    color: #2abbeb;
+    border-color: #2abbeb;
+  }
+  .prenotazione{
+    padding: 20px;
+  }
+  .persone{
+    height: 20%;
+    width: 20%;
+  }
+  .footer{
+    padding: 50px;
+  }

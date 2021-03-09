@@ -1,0 +1,43 @@
+.menu{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2abbeb;
+    padding:20px;
+}
+.menu img{
+    width: 80%;
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2abbeb;
+  }
+  
+  .cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+  }
+  /*Orario*/
+  .orario ul{
+      font-size: large;
+  }
+  .orario li{
+    font-weight: bold;
+  }
+  .orario .ml-auto{
+    font-weight: normal;
+  }
